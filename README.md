@@ -1,5 +1,5 @@
 # YAANN
-Yet Another Artificial Neural Network
+Yet Another Artificial Neural Network.
 
 Simple ANN based on backpropagation algorithm. 
 
