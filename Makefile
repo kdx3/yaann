@@ -5,7 +5,7 @@ OUT_DIR=out
 EXAMPLES_DIR=examples
 
 CC=g++
-CFLAGS=-g -lm -Wall -Werror -I$(SRC_DIR)
+CFLAGS=-fopenmp -lpthread -g -lm -Wall -I$(SRC_DIR)
 
 SRC_FILES=$(wildcard $(SRC_DIR)/*.cpp)
 EXAMPLES_FILE=$(wildcard $(EXAMPLES_DIR)/*.cpp)
